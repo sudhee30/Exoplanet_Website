@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Website</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/shared/logo.jpg" alt="" />
+      </div>
+      <div class="container">
+        <div class="navbar" id="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#crew">crew</a></li>
+            <li><a href="#tech">technology</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="container">
+        <div class="text">
+          <h3>SO, YOU WANT TO TRAVEL TO</h3>
+          <h2>SPACE</h2>
+          <p>
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <a href="https://science.nasa.gov/exoplanets/missions/">EXPLORE</a>
+      </div>
+    </section>
+
+    <section class="destination" id="destination">
+      <div class="container">
+        <div class="head">
+          <h3><span>01</span> Pick Your Destination</h3>
+        </div>
+
+        <div class="all">
+          <div class="image moon change">
+            <img src="assets/destination/image-moon.webp" alt="" />
+          </div>
+          <div class="image change mars remove">
+            <img src="assets/destination/image-mars.webp" alt="" />
+          </div>
+          <div class="image change europa remove">
+            <img src="assets/destination/image-europa.webp" alt="" />
+          </div>
+          <div class="image change titan remove">
+            <img src="assets/destination/image-titan.webp" alt="" />
+          </div>
+          <div class="info">
+            <ul class="header">
+              <li data-cat="Proxima Centauri b" class="active">Proxima Centauri b</li>
+              <li data-cat="Kepler-452b" >Kepler-452b</li>
+              <li data-cat="TRAPPIST-1d ">TRAPPIST-1d </li>
+              <li data-cat="LHS 1140 b">LHS 1140 b</li>
+            </ul>
+            <div class="moon content change">
+              <h2 class="name">Proxima Centauri b</h2>
+              <p class="description">
+                An Earth-sized exoplanet in the habitable zone of Proxima Centauri, the closest star to the Sun, possibly capable of supporting liquid water.
+              </p>
+              <div class="travel">
+                <div class="distance">
+                  <span style="display: block">AVG. DISTANCE</span>
+                  <p>4.24 Light Years</p>
+                </div>
+                <div class="time">
+                  <span style="display: block">EST. TRAVEL TIME</span>
+                  <p>~73,000 years</p>
+                </div>
+              </div>
+            </div>
+            <div class="mars content change remove">
+              <h2 class="name">Kepler-452b</h2>
+              <p class="description">
+                A super-Earth exoplanet orbiting a sun-like star, located in the habitable zone, often referred to as Earth's "cousin" due to its size and location.
+
+              </p>
+              <div class="travel">
+                <div class="distance">
+                  <span style="display: block">AVG. DISTANCE</span>
+                  <p>1400 Light Years</p>
+                </div>
+                <div class="time">
+                  <span style="display: block">EST. TRAVEL TIME</span>
+                  <p>26 million years</p>
+                </div>
+              </div>
+            </div>
+            <div class="europa content change remove">
+              <h2 class="name">TRAPPIST-1d</h2>
+              <p class="description">
+                One of seven Earth-sized planets in the TRAPPIST-1 system, located in the habitable zone, with potential for water on its surface.
+
+              </p>
+              <div class="travel">
+                <div class="distance">
+                  <span style="display: block">AVG. DISTANCE</span>
+                  <p>39 Light Years</p>
+                </div>
+                <div class="time">
+                  <span style="display: block">EST. TRAVEL TIME</span>
+                  <p>700,000 years</p>
+                </div>
+              </div>
+            </div>
+            <div class="titan content change remove">
+              <h2 class="name">LHS 1140 b</h2>
+              <p class="description">
+                A super-Earth exoplanet located in the habitable zone of a red dwarf star, thought to be a promising candidate for atmospheric studies.
+
+              </p>
+              <div class="travel">
+                <div class="distance">
+                  <span style="display: block">AVG. DISTANCE</span>
+                  <p>40 Light Years</p>
+                </div>
+                <div class="time">
+                  <span style="display: block">EST. TRAVEL TIME</span>
+                  <p>707,000 years</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="crew" id="crew">
+      <div class="head">
+        <h3><span>02</span> Meet your crew</h3>
+      </div>
+      <div class="container swiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="crew-slide">
+              <div class="text">
+                <h3><span style="display: block;">Principal Investigator</span>William Borucki</h3>
+                <p> Principal investigator of the Kepler mission, which discovered thousands of exoplanets, revolutionizing the field of exoplanet research.</p>
+              </div>
+              <div class="img douglas" >
+                <img class="douglas" src="assets/crew/image-douglas-hurley.webp" alt="">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+
+          <div class="swiper-slide">
+            <div class="crew-slide">
+              <div class="text">
+                <h3><span style="display: block;">leading astrophysicist </span>Sara Seager</h3>
+                <p>known for her work on exoplanet atmospheres and the search for habitable worlds beyond our solar system.</p>
+
+              </div>
+              <div class="img mark">
+                <img class="mark" src="assets/crew/image-mark-shuttleworth.webp" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+
+          <div class="swiper-slide">
+            <div class="crew-slide">
+              <div class="text">
+                <h3><span style="display: block;">Astrophysicist</span>Jessie Christiansen</h3>
+                <p>An astrophysicist at NASA's Exoplanet Science Institute, known for her work in exoplanet demographics and cataloging exoplanets discovered by Kepler. </p>
+              </div>
+              <div class="img" aria-colspan="victor">
+                <img class="victor" src="assets/crew/image-victor-glover.webp" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+
+          <div class="swiper-slide">
+            <div class="crew-slide">
+              <div class="text">
+                <h3><span style="display: block;">Director of NASA's Astrophysics Division</span></h3>
+                <p>Overseeing many of NASA’s missions related to the discovery and study of exoplanets. </p>
+              </div>
+              <div class="img" class="girl">
+                <img class="girl" src="assets/crew/image-anousheh-ansari.webp" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </section>
+
+    <section class="tech" id="tech">
+      <div class="container">
+        <div class="head">
+          <h3><span>03</span> KEPLER SPACE TELESCOPE</h3>
+        </div>
+          <div class="all">
+            <div class="number">
+              <span class="switcher active" data-num="one">1</span>
+              <span class="switcher" data-num="two">2</span>
+              <span class="switcher" data-num="three">3</span>
+            </div>
+            <div class="content kill one">
+              <h2><span style="display: block;">THE TERMINOLOGY…</span>Kepler Mission</h2>
+              <p>Launched in 2009, the Kepler space telescope revolutionized exoplanet science by discovering over 2,600 confirmed exoplanets, including Earth-sized planets in habitable zones.</p>
+            </div>
+
+            <div class="content kill hide two">
+              <h2><span style="display: block;">THE TERMINOLOGY…</span>Transiting Exoplanet Survey Satellite</h2>
+              <p>Launched in 2018, TESS searches for exoplanets around the brightest stars near Earth, focusing on smaller planets in the habitable zones of nearby stars.</p>
+            </div>
+
+            <div class="content kill hide three">
+              <h2><span style="display: block;">THE TERMINOLOGY…</span>James Webb Space Telescope</h2>
+              <p>Launched in 2021, JWST is equipped to study exoplanet atmospheres in unprecedented detail, searching for biomarkers like oxygen and water vapor.</p>
+            </div>
+
+
+          </div>
+          
+        </div>
+        <div class="image kill one">
+          <img src="assets/technology/image-spaceport-portrait.jpg" class="one" alt="">
+          <img src="assets/technology/image-spaceport-landscape.jpg" class="one mobile" alt="">
+        </div>
+
+
+
+        <div class="image two kill hide">
+          <img src="assets/technology/image-launch-vehicle-portrait.jpg" class="one" alt="">
+          <img src="assets/technology/image-launch-vehicle-landscape.jpg" class="one mobile" alt="">
+        </div>
+
+        <div class="image three kill hide">
+          <img src="assets/technology/image-space-capsule-portrait.jpg" class="one" alt="">
+          <img src="assets/technology/image-space-capsule-landscape.jpg" class="one mobile" alt="">
+        </div>
+
+
+    </section>
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
